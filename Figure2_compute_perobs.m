@@ -4,7 +4,7 @@ addpath('./Functions/');
 load('data.mat');
 listsub = unique(data.subjectname);
 listvis = {'commonoffset' 'trailing' 'noise' 'contrast'}; % to reorder them as I want
-nbb = 200;
+nbb = 500;
 alpha = 0.05;
 
 for s = 1:numel(listsub)
